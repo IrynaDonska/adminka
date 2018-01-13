@@ -1,0 +1,21 @@
+
+input {
+    width: rem(45);
+    height: rem(30);
+    border-radius: rem(5);
+    text-align: center;
+    margin-left: rem(50);
+    margin-right: rem(10);
+}
+
+button {
+    border: none;
+    width: rem(30);
+    height: rem(30);
+    background: svg('~img/close.svg', $green) center center no-repeat;
+
+    &:hover {
+        background: svg('~img/close.svg', #1f5f2a) center center no-repeat;
+        transition: 1s; 
+    }
+}

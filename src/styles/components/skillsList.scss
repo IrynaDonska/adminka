@@ -1,0 +1,43 @@
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: rem(90);     
+
+    &:first-child {
+        margin-left: 0; 
+    }
+}
+
+.error {
+   border: rem(1) solid $green;
+   outline: none; 
+}
+
+.title {
+    margin-bottom: rem(20);
+    margin-top: rem(30);
+}
+.table, .addButton, .validation {
+    margin-left: rem(20);
+    font-family: 'robotoregular';
+}
+.addButton {
+    margin-top: rem(10);
+}
+
+input {
+    width: rem(200);
+    border-radius: rem(5);
+    margin-left: rem(10);    
+}
+
+
+
+/*.validation-active {
+    position: absolute;
+    color: $white;
+    width: rem(200);
+    height: rem(20);
+    background-color: rgba(#6c9c5a, 0.8);
+    text-align: center;
+}*/

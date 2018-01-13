@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row{
+    margin-top: rem(20);
+}
+
+input {
+    width: rem(300);
+    border-radius: rem(5);
+    padding: rem(20);
+}
+
+textarea {
+    resize: none;
+    width: rem(500);
+    height: rem(170);
+    border-radius: rem(5);
+    padding: rem(20);
+    overflow: auto;
+}
+
+
+
+
